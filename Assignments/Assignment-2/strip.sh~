@@ -1,4 +1,0 @@
-#!/bin/bash
-# Sindiya Mohan 100600998
-
-rm -head -n -m | tail -n +k gadsby.txt
