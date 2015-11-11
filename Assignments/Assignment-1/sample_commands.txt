@@ -1,0 +1,15 @@
+1a) the command: echo hello world prints out the statement hello world after echo. 
+
+1b) the command : echo {con,pre}{sent,fer}{s,ed} display all the possible words starting with the prefix {con, pre} and second bracket consists of letters which should be after the prefix. The last bracket consists of the suffix. This command displays all the possible words starting with con, pre. 
+
+1c)The command: date, displays the current date of the system. 
+
+1d) The command: whoami display the  current userof the computer. 
+
+1e)The command: cal 2000 displays the calender of the year 2000.
+
+1f) The command: cal 9 1752 displays the nineth month of the year 1752
+
+1g)The command : bc -l defines the standard math library. 
+
+1h)The command: echo 5+4 | bc-l - echo 5+4 is computted(addition of the two terms) by the command bc -l to produce the output of the  sum. 
