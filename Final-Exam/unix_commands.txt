@@ -3,7 +3,12 @@
 # How would you print the file classlist.csv to the screen
 # except the two header lines?
 # Enter the relevant Unix command(s) used below.
+ 
+k=$2
+filename = $3
 
+k=$((k+2))
+tail -n +$k $filename
 
 
 
@@ -13,7 +18,9 @@
 # Enter the relevant Unix command(s) used below as well as the number
 # of students in the list.
 
+tail -n +$k $filename | wc -1 *.csv
 
+130 students in the list 
 
 
 # part (c)
@@ -24,8 +31,10 @@
 # Enter the relevant Unix command(s) used below as well as the names
 # of the first and last students in the new list.
 
+sort -d --firstname 
 
-
+		 First Student at Top of list : Adam	Alcazar
+		Bottom of the list : Zenia	Ziemba
 
 # part (d)
 # Construct a Unix pipeline involving these functions to determine
@@ -33,6 +42,7 @@
 # repeated in the class list?
 # Enter the relevant name(s) and the Unix command(s) below.
 
+sort -d --firstname | grep -w 'First Name' classlist.csv
 
 
 
